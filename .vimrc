@@ -13,13 +13,7 @@ let g:ctrlp_show_hidden = 1
 "" Remove excess whitespace on save
 autocmd BufWritePre * :%s/\s\+$//ge
 
-colorscheme solarized
 " Separate configuration for guivim and terminal vim
-if has('gui_running')
-  set background=light
-else
-  set background=dark
-endif
 
 set nocompatible                    " choose no compatibility with legacy vi
 syntax enable
