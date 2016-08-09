@@ -1,4 +1,6 @@
 call pathogen#infect()
+" Shortcuts
+imap jk <Esc>
 
 " Disable arrow key navigation
 noremap <Up> <NOP>
